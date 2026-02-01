@@ -9,19 +9,23 @@ This GUI is the second version of a three-part evolution:
 ---
 
 ## The Data Viz Edition
-While v1 proved the logic, v2 focuses on data visualization. This desktop application fetches live global weather data and generates dynamic charts to help users visualize 7-day trends.
+While v1 proved the logic, v2 focuses on data visualization. This desktop application fetches live global weather data and generates dynamic graphs to help users visualize 7-day trends.
 
 ## Key Features
--Geospatial Intelligence: Integrated `geopy` to convert human-readable city names into Latitude and Longitude coordinates for API precision.
+- Geospatial Intelligence: Integrated `geopy` to convert human-readable city names into Latitude and Longitude coordinates for API precision.
 - Time-Series Analysis: Implemented logic to map API timestamps to readable chart axes using the `datetime` library.
 - Visual Analytics:
-   1.Line Plots: For tracking Max/Min temperature fluctuations.
-   2.Bar Charts: For visualizing precipitation, rain, and snowfall sums.
+
+  1. Line Plots: For tracking Max/Min temperature fluctuations.
+
+  2. Bar Charts: For visualizing precipitation, rain, showers, and snowfall sums.
+     
 - Interactive GUI: Built with `tkinter`, featuring a dynamic `Option Menu` that updates the visualization type based on user preference.
 
 ---
 
 ## Tech Stack & Dependencies
+
 1. GUI: `tkinter`
 2. Data Science: `matplotlib`, `pandas` and `seaborn`
 3. Networking: `requests` and `geopy`
@@ -53,7 +57,6 @@ pip install -r requirements.txt
 ### 4. Run
 ```bash
 python City_Weather_Identifier.py
-
 ```
 ## License
 
