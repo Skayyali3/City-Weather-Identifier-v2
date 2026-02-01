@@ -1,8 +1,8 @@
-# City-Weather-Identifier-v2
+# City Weather Identifier v2
 
 ##  Project History
 This GUI is the second version of a three-part evolution:
-1. **[Jordan Weather Legacy v1](https://github.com/Skayyali3/Jordan-Weather-Identifier-v1)** - The Prototype: First Python GUI using static File I/O.
+1. **[Jordan Weather Identifier v1](https://github.com/Skayyali3/Jordan-Weather-Identifier-v1)** - The Prototype: First Python GUI using static File I/O.
 2. **City Weather Identifier v2 (This repo)** - Data Viz: Desktop app with live API integration and Seaborn/Matplotlib graphs. 
 3. **[City Weather Identifier v3](https://github.com/Skayyali3/City-Weather-Identifier-v3)** - Full-Stack: Responsive web app with Flask backend and Pandas data processing.
 
